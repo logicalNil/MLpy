@@ -24,3 +24,7 @@ print(versi)
 # remove species column from versi
 new = versi.drop("species", axis=1)
 print(new)
+
+# decision tree construction
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
