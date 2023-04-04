@@ -24,4 +24,3 @@ print(versi)
 # remove species column from versi
 new = versi.drop("species", axis=1)
 print(new)
-
