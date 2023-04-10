@@ -1,4 +1,4 @@
-from sklearn.datasets import load_student
+from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split
 from collections import Counter
 import numpy as np
