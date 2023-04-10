@@ -1,12 +1,12 @@
-from sklearn.datasets import load_iris
+from sklearn.datasets import load_student
 from sklearn.model_selection import train_test_split
 from collections import Counter
 import numpy as np
 
-# load the Iris dataset
-iris = load_iris()
-X = iris.data
-y = iris.target
+# load the cancer dataset
+i = load_breast_cancer()
+X = i.data
+y = i.target
 
 # split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
